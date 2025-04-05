@@ -18,7 +18,7 @@ steps:
   - name: 'gcr.io/cloud-builders/gcloud'
     args: [
       'run', 'deploy', 'khanam-flask-backend-app',
-      '--image', 'us-central1-docker.pkg.dev/rumana78656/khanam-repo/khanam-flask-app:latest',
+      '--image', 'us-central1-docker.pkg.dev/rumana78656/khanam-repo/khanam-flask-backend-app:latest',
       '--region', 'us-central1',
       '--platform', 'managed',
       '--allow-unauthenticated'
